@@ -5,14 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "tauri dev",
-
     "build:web": "vite build",
-
     "build:tauri": "vite build && tauri build",
-
     "preview:web": "vite preview",
-
-    "prod:test:tauri": "vite build && tauri dev"
+    "prod:test:tauri": "vite build && tauri dev",
+    "tauri": "tauri"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
